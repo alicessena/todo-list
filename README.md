@@ -1,54 +1,42 @@
-# React + TypeScript + Vite
+# To-Do List com React + TypeScript
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um aplicativo de lista de tarefas moderno e interativo, construído com React e TypeScript. Armazena tarefas localmente e oferece uma experiência visualmente atraente com modo claro/escuro.
 
-Currently, two official plugins are available:
+[![Teste Agora](https://i.imgur.com/NjMHH9O.png)](https://todolist-react-alicessena.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Novas Funcionalidades (Atualizadas)
 
-## Expanding the ESLint configuration
+- **Tema Rosa Moderno** com gradientes e animações suaves
+- **Modo Claro/Escuro** alternável
+- **Persistência de Dados** usando localStorage
+- **Efeitos Visuais**:
+  - Animação de notificação aprimorada
+  - Efeito "pulse" em novas tarefas
+  - Hover com levantamento dos itens
+- **100% Tipado** com TypeScript
+- **Responsividade Aprimorada**
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Estrutura Técnica (Atualizada)
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### Tecnologias Utilizadas
+- React
+- TypeScript
+- localStorage API
+- Lucide React Icons
+- CSS Moderno (Variáveis, Transições)
+- Vercel (Deploy)
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### Como rodar o projeto localmente
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+1. **Clone o repositório**:
+   ```bash
+   git clone https://github.com/alicessena/todo-list.git 
+
+2. **Navegue até a pasta do projeto**:
+   ```bash
+   cd todo-list
+
+3. **Instale as dependências**:
+   ```bash
+   npm install
