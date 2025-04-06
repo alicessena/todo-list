@@ -2,7 +2,7 @@
 
 Um aplicativo de lista de tarefas moderno e interativo, construído com React e TypeScript. Armazena tarefas localmente e oferece uma experiência visualmente atraente com modo claro/escuro.
 
-[![Teste Agora](https://i.imgur.com/NjMHH9O.png)](https://todolist-react-alicessena.vercel.app/)
+[![Teste Agora](https://i.imgur.com/NjMHH9O.png)](https://todo-list-alicessena.vercel.app/)
 
 ## Novas Funcionalidades (Atualizadas)
 
